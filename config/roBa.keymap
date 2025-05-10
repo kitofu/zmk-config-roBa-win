@@ -87,10 +87,10 @@
 
         NUM {
             bindings = <
-&kp TILDE  &kp LC(LEFT_ARROW)  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LC(RIGHT_ARROW)                                               &none   &none   &none   &none   &kp MINUS
-&mkp MB3   &mkp MB4            &mkp MB1         &mkp MB2           &mkp MB5             &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &trans  &trans  &trans  &trans  &kp EQUAL
-&none      &kp F2              &kp F3           &kp F4             &kp F5               &kp F6                       &trans          &kp F6  &kp F7  &kp F8  &kp F9  &kp DOUBLE_QUOTES
-&trans     &trans              &trans           &trans             &trans               &trans                       &trans          &trans                          &kp PIPE
+&kp TILDE  &kp LC(LEFT_ARROW)  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LC(RIGHT_ARROW)                                               &none            &none   &none   &none   &kp MINUS
+&mkp MB3   &mkp MB4            &mkp MB1         &mkp MB2           &mkp MB5             &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &trans           &trans  &trans  &trans  &kp EQUAL
+&none      &kp F2              &kp F3           &kp F4             &kp F5               &trans                       &kp F10         &kp F6           &kp F7  &kp F8  &kp F9  &kp DOUBLE_QUOTES
+&trans     &trans              &trans           &trans             &trans               &trans                       &trans          &kp RIGHT_SHIFT                          &kp PIPE
             >;
         };
 
