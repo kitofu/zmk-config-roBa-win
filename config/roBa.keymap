@@ -40,6 +40,16 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        alt_tab {
+            bindings = <&none>;
+            key-positions = <0 27>;
+        };
+
+        command_tab {
+            bindings = <&none>;
+            key-positions = <10 27>;
+        };
     };
 
     macros {
