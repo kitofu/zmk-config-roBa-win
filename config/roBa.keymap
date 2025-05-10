@@ -42,12 +42,12 @@
         };
 
         alt_tab {
-            bindings = <&none>;
+            bindings = <&kp LA(TAB)>;
             key-positions = <0 27>;
         };
 
         command_tab {
-            bindings = <&none>;
+            bindings = <&kp LG(TAB)>;
             key-positions = <10 27>;
         };
     };
