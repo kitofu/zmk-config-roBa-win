@@ -108,10 +108,10 @@
 
         NUM {
             bindings = <
-&kp TILDE  &kp LC(LEFT_ARROW)  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LC(RIGHT_ARROW)                                               &none            &none   &none   &kp LC(MINUS)      &kp MINUS
-&mkp MB3   &mkp MB4            &mkp MB1         &mkp MB2           &mkp MB5             &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &trans           &trans  &trans  &kp LS(LC(EQUAL))  &kp EQUAL
-&none      &kp F2              &kp F3           &kp F4             &kp F5               &trans                       &kp F10         &kp F6           &kp F7  &kp F8  &kp F9             &kp SQT
-&trans     &trans              &trans           &trans             &trans               &trans                       &trans          &kp RIGHT_SHIFT                                     &kp BACKSLASH
+&kp TILDE  &kp LC(LEFT_ARROW)  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LC(RIGHT_ARROW)                                               &none            &none         &none           &kp LC(MINUS)      &kp MINUS
+&mkp MB3   &mkp MB4            &mkp MB1         &mkp MB2           &mkp MB5             &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &trans           &msc SCRL_UP  &msc SCRL_DOWN  &kp LS(LC(EQUAL))  &kp EQUAL
+&none      &kp F2              &kp F3           &kp F4             &kp F5               &trans                       &kp F10         &kp F6           &kp F7        &kp F8          &kp F9             &kp SQT
+&trans     &trans              &trans           &trans             &trans               &trans                       &trans          &kp RIGHT_SHIFT                                                   &kp BACKSLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -152,15 +152,6 @@
 &trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
 &trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
-            >;
-        };
-
-        NumPad {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp N1  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
     };
