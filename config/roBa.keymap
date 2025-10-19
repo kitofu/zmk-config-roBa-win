@@ -50,6 +50,11 @@
             bindings = <&kp LG(TAB)>;
             key-positions = <10 27>;
         };
+
+        layer6 {
+            bindings = <&lt 6 ENTER>;
+            key-positions = <40 39>;
+        };
     };
 
     macros {
