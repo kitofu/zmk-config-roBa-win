@@ -16,11 +16,6 @@
     combos {
         compatible = "zmk,combos";
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
-        };
-
         shift_tab {
             bindings = <&kp LS(TAB)>;
             key-positions = <12 13>;
@@ -54,6 +49,11 @@
         layer6 {
             bindings = <&lt 6 ENTER>;
             key-positions = <40 39>;
+        };
+
+        Ctrl+Alt+Del {
+            bindings = <&kp LC(LA(DELETE))>;
+            key-positions = <34 42>;
         };
     };
 
